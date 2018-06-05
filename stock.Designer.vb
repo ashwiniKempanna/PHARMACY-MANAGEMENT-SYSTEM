@@ -1,0 +1,497 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form19
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form19))
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox
+        Me.Panel1 = New System.Windows.Forms.Panel
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.TextBox1 = New System.Windows.Forms.TextBox
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox
+        Me.Label5 = New System.Windows.Forms.Label
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.Label8 = New System.Windows.Forms.Label
+        Me.Label9 = New System.Windows.Forms.Label
+        Me.TextBox2 = New System.Windows.Forms.TextBox
+        Me.TextBox3 = New System.Windows.Forms.TextBox
+        Me.TextBox4 = New System.Windows.Forms.TextBox
+        Me.TextBox5 = New System.Windows.Forms.TextBox
+        Me.TextBox6 = New System.Windows.Forms.TextBox
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Label10 = New System.Windows.Forms.Label
+        Me.TextBox7 = New System.Windows.Forms.TextBox
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox
+        Me.Button11 = New System.Windows.Forms.Button
+        Me.Button10 = New System.Windows.Forms.Button
+        Me.Button7 = New System.Windows.Forms.Button
+        Me.Button6 = New System.Windows.Forms.Button
+        Me.Button5 = New System.Windows.Forms.Button
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.Button8 = New System.Windows.Forms.Button
+        Me.Button9 = New System.Windows.Forms.Button
+        Me.cmd = New System.Windows.Forms.Button
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox4.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(304, 20)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(85, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "STOCK ISSUES"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.DateTimePicker1)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Location = New System.Drawing.Point(27, 56)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(404, 178)
+        Me.GroupBox1.TabIndex = 1
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "TRANSFER / ISSUE INFO"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.Button2)
+        Me.GroupBox2.Controls.Add(Me.Button1)
+        Me.GroupBox2.Controls.Add(Me.TextBox6)
+        Me.GroupBox2.Controls.Add(Me.TextBox5)
+        Me.GroupBox2.Controls.Add(Me.TextBox4)
+        Me.GroupBox2.Controls.Add(Me.TextBox3)
+        Me.GroupBox2.Controls.Add(Me.TextBox2)
+        Me.GroupBox2.Controls.Add(Me.Label9)
+        Me.GroupBox2.Controls.Add(Me.Label8)
+        Me.GroupBox2.Controls.Add(Me.Label7)
+        Me.GroupBox2.Controls.Add(Me.Label6)
+        Me.GroupBox2.Controls.Add(Me.Label5)
+        Me.GroupBox2.Location = New System.Drawing.Point(34, 240)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(497, 247)
+        Me.GroupBox2.TabIndex = 2
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "PRODUCT INFO"
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.TextBox7)
+        Me.Panel1.Controls.Add(Me.Label10)
+        Me.Panel1.Location = New System.Drawing.Point(551, 76)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(241, 113)
+        Me.Panel1.TabIndex = 3
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(40, 512)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(490, 137)
+        Me.DataGridView1.TabIndex = 4
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Location = New System.Drawing.Point(562, 240)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.Size = New System.Drawing.Size(414, 388)
+        Me.DataGridView2.TabIndex = 5
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(26, 42)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(67, 13)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Transfer Id : "
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(25, 85)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(36, 13)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Date :"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(36, 134)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(38, 13)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "Store :"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(108, 44)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 3
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(110, 94)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 4
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(108, 139)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 5
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(33, 44)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(68, 13)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "Warehouse :"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(35, 83)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(81, 13)
+        Me.Label6.TabIndex = 1
+        Me.Label6.Text = "Product Name :"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(33, 123)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(67, 13)
+        Me.Label7.TabIndex = 2
+        Me.Label7.Text = "Expiry Date :"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(35, 170)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(75, 13)
+        Me.Label8.TabIndex = 3
+        Me.Label8.Text = "Available Qty :"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(33, 210)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(94, 13)
+        Me.Label9.TabIndex = 4
+        Me.Label9.Text = "Transfer Quantity :"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(106, 48)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(197, 20)
+        Me.TextBox2.TabIndex = 5
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(104, 82)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(199, 20)
+        Me.TextBox3.TabIndex = 6
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(107, 126)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox4.TabIndex = 7
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(118, 175)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox5.TabIndex = 8
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(129, 209)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox6.TabIndex = 9
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(361, 49)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(99, 34)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "ADD"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(361, 110)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(99, 36)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "REMOVE"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(33, 25)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(131, 13)
+        Me.Label10.TabIndex = 0
+        Me.Label10.Text = "Search by product Name :"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(58, 69)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(162, 20)
+        Me.TextBox7.TabIndex = 1
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.Button11)
+        Me.GroupBox4.Controls.Add(Me.Button10)
+        Me.GroupBox4.Controls.Add(Me.Button7)
+        Me.GroupBox4.Controls.Add(Me.Button6)
+        Me.GroupBox4.Controls.Add(Me.Button5)
+        Me.GroupBox4.Controls.Add(Me.Button3)
+        Me.GroupBox4.Controls.Add(Me.Button4)
+        Me.GroupBox4.Controls.Add(Me.Button8)
+        Me.GroupBox4.Controls.Add(Me.Button9)
+        Me.GroupBox4.Controls.Add(Me.cmd)
+        Me.GroupBox4.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.GroupBox4.Location = New System.Drawing.Point(1005, 56)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(142, 407)
+        Me.GroupBox4.TabIndex = 9
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "ACTION BUTTON"
+        '
+        'Button11
+        '
+        Me.Button11.BackgroundImage = CType(resources.GetObject("Button11.BackgroundImage"), System.Drawing.Image)
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button11.Location = New System.Drawing.Point(24, 343)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(37, 43)
+        Me.Button11.TabIndex = 14
+        Me.Button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.Location = New System.Drawing.Point(24, 341)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(100, 43)
+        Me.Button10.TabIndex = 13
+        Me.Button10.Text = "GET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DATA"
+        Me.Button10.TextAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.BackgroundImage = CType(resources.GetObject("Button7.BackgroundImage"), System.Drawing.Image)
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button7.Location = New System.Drawing.Point(23, 269)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(37, 43)
+        Me.Button7.TabIndex = 11
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button6.Location = New System.Drawing.Point(21, 186)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(37, 43)
+        Me.Button6.TabIndex = 10
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
+        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button5.Location = New System.Drawing.Point(21, 103)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(37, 43)
+        Me.Button5.TabIndex = 9
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button3.Location = New System.Drawing.Point(21, 26)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(37, 43)
+        Me.Button3.TabIndex = 8
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button4.Location = New System.Drawing.Point(21, 269)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(103, 42)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "DELETE"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Location = New System.Drawing.Point(21, 186)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(103, 42)
+        Me.Button8.TabIndex = 2
+        Me.Button8.Text = "UPDATE"
+        Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Location = New System.Drawing.Point(21, 103)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(103, 44)
+        Me.Button9.TabIndex = 1
+        Me.Button9.Text = "SAVE"
+        Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'cmd
+        '
+        Me.cmd.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmd.Location = New System.Drawing.Point(21, 26)
+        Me.cmd.Name = "cmd"
+        Me.cmd.Size = New System.Drawing.Size(102, 43)
+        Me.cmd.TabIndex = 0
+        Me.cmd.Text = "NEW"
+        Me.cmd.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.cmd.UseVisualStyleBackColor = True
+        '
+        'Form19
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1171, 707)
+        Me.Controls.Add(Me.GroupBox4)
+        Me.Controls.Add(Me.DataGridView2)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.Label1)
+        Me.Name = "Form19"
+        Me.Text = "Form19"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridView2 As System.Windows.Forms.DataGridView
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents cmd As System.Windows.Forms.Button
+End Class

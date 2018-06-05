@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{53106F91-627D-4125-9389-F87A0A66C787}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PHARMACY_MANAGEMENT_SYSTEM.My.MyApplication</StartupObject>
+    <RootNamespace>PHARMACY_MANAGEMENT_SYSTEM</RootNamespace>
+    <AssemblyName>PHARMACY MANAGEMENT SYSTEM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PHARMACY MANAGEMENT SYSTEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PHARMACY MANAGEMENT SYSTEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Splashscreen.Designer.vb">
+      <DependentUpon>Splashscreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashscreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.vb">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billing.Designer.vb">
+      <DependentUpon>billing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="billing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockin.Designer.vb">
+      <DependentUpon>stockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock.Designer.vb">
+      <DependentUpon>stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchase.Designer.vb">
+      <DependentUpon>purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="product.Designer.vb">
+      <DependentUpon>product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="list sup.Designer.vb">
+      <DependentUpon>list sup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="list sup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="list cust.Designer.vb">
+      <DependentUpon>list cust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="list cust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplier.Designer.vb">
+      <DependentUpon>supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lstores.Designer.vb">
+      <DependentUpon>lstores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lstores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tax2.Designer.vb">
+      <DependentUpon>tax2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tax2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taxtype.Designer.vb">
+      <DependentUpon>taxtype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="taxtype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.vb">
+      <DependentUpon>admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company master.Designer.vb">
+      <DependentUpon>Company master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Company master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Currency info.Designer.vb">
+      <DependentUpon>Currency info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Currency info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories.Designer.vb">
+      <DependentUpon>Categories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Categories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expensetype.Designer.vb">
+      <DependentUpon>Expensetype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Expensetype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exp2.Designer.vb">
+      <DependentUpon>Exp2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exp2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ware2.Designer.vb">
+      <DependentUpon>ware2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ware2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouse.Designer.vb">
+      <DependentUpon>Warehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="billing.resx">
+      <DependentUpon>billing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories.resx">
+      <DependentUpon>Categories.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Currency info.resx">
+      <DependentUpon>Currency info.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchase.resx">
+      <DependentUpon>purchase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="list cust.resx">
+      <DependentUpon>list cust.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="list sup.resx">
+      <DependentUpon>list sup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lstores.resx">
+      <DependentUpon>lstores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company master.resx">
+      <DependentUpon>Company master.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expensetype.resx">
+      <DependentUpon>Expensetype.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exp2.resx">
+      <DependentUpon>Exp2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product.resx">
+      <DependentUpon>product.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashscreen.resx">
+      <DependentUpon>Splashscreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock.resx">
+      <DependentUpon>stock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockin.resx">
+      <DependentUpon>stockin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplier.resx">
+      <DependentUpon>supplier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tax2.resx">
+      <DependentUpon>tax2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taxtype.resx">
+      <DependentUpon>taxtype.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ware2.resx">
+      <DependentUpon>ware2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouse.resx">
+      <DependentUpon>Warehouse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
